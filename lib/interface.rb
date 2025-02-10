@@ -1,7 +1,6 @@
 require_relative 'rock_paper_scissors'
 
 puts "Let us play rock paper scissors"
-
 puts "Select a value for Player 1"
 p1 = gets.chomp.downcase
 
