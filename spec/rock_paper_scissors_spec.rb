@@ -19,7 +19,7 @@ RSpec.describe "rock_paper_scissors" do
     expect(who_won?("rock", "rock")).to eq "Its a draw"
   end
 
-  it "Should return a warning when empty or other string" do
+  it "Should return a warning when input is empty or other string" do
     expect(who_won?("", "")).to eq "Oh wrong inputs play again!"
     expect(who_won?("whatever", "whatever")).to eq "Oh wrong inputs play again!"
     expect(who_won?("", "whatever")).to eq "Oh wrong inputs play again!"
